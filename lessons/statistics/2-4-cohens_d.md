@@ -10,11 +10,13 @@ Means of total weight in pounds for firsts, others
 ```
 print(firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean())
 ```
+(7.201094430437772, 7.325855614973262)
 
 Difference of those means 
 ```
 print(firsts.totalwgt_lb.mean() - others.totalwgt_lb.mean())
 ```
+-0.12476118453549034
 
 Difference is negative, so we might be tempted to say first babies are lighter in weight. 
 However, we can't say anything about the significance. 
@@ -24,12 +26,14 @@ Standard deviations of total weight in pounds for firsts, others
 ```
 print(firsts.totalwgt_lb.std(), others.totalwgt_lb.std())
 ```
+(1.4205728777207374, 1.3941954762143138)
 
 We can also calculate Cohen's d for these two using the provided function.
 ```
 cohen_prg_wt = CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 print(cohen_prg_wt)
 ```
+-0.088672927072602
 
 This is also negative, although it's a fairly small standardized value.
 However, the text doesn't actually give guidelines. 
