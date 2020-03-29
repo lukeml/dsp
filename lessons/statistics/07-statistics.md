@@ -128,7 +128,14 @@ Or
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+To truly answer this question, I think you'd need to ask a practicing statistician who claims to be in one of these camps. But I guess the purpose of this question is to get students to google the answer? It certainly wasn't discussed in Think Stats. The author recommended his book Think Bayes. 
+
+So for the google answer, frequentists draw conclusions based on sample data emphasizing the frequeny or proportion of the sample relative to the population. 
+
+Bayesian statistics apparently will attempt to update probability estimates as additional information is acquired. 
+
+To be honest, I would bet that the actual practical differences are way outside the scope of this course. Sure, we might use some aspects of Bayes' theorem for simple calculations. Some algorithms even use Bayes-related techniques for identifying spam emails or similiar tasks. But it would be foolish for non-statisticians to try and compare the two based on a google search.
+
 
 ---
 
