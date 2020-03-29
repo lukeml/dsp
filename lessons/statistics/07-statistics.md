@@ -134,7 +134,7 @@ So for the google answer, frequentists draw conclusions based on sample data emp
 
 Bayesian statistics apparently will attempt to update probability estimates as additional information is acquired. 
 
-To be honest, I would bet that the actual practical differences are way outside the scope of this course. Sure, we might use some aspects of Bayes' theorem for simple calculations. Some algorithms even use Bayes-related techniques for identifying spam emails or similiar tasks. But it would be foolish for non-statisticians to try and compare the two based on a google search.
+To be honest, I would bet that the actual practical differences are way outside the scope of this course. Sure, we might use some aspects of Bayes' theorem for simple calculations. Some algorithms even use Bayes-related techniques for identifying spam emails or similiar tasks. But I don't think I can comment intelligently on this subject in any useful way.
 
 
 ---
